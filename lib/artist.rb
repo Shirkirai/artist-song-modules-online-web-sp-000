@@ -21,7 +21,7 @@ class Artist
     @@artists
   end
 
-  
+
 
   def add_song(song)
     @songs << song
@@ -32,7 +32,7 @@ class Artist
     songs.each { |song| add_song(song) }
   end
 
-  def to_param
-    name.downcase.gsub(' ', '-')
-  end
+  #def to_param
+  #  name.downcase.gsub(' ', '-')
+  #end
 end
