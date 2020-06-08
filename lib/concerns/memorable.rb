@@ -3,5 +3,5 @@
 
 module Memorable
 
-  def self.all.count
+  def self.count
 end
